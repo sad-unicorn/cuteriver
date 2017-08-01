@@ -1,2 +1,8 @@
+.classpath
+.project
+.cache-*
 target/
+project/
 .idea/
+.settings/
+/bin/
