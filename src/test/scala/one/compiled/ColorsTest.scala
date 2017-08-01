@@ -9,7 +9,6 @@ class ColorsTest extends FlatSpec with Matchers {
   "black" should "produce right hsl" in {
     Colors.rgb2hsl(RGB(0,0,0)) shouldBe Right(HSL(0,0,0))
   }
-
   // 	White	#FFFFFF	(255,255,255)	(0°,0%,100%)
   "white" should "produce right hsl" in {
     Colors.rgb2hsl(RGB(255,255,255)) shouldBe Right(HSL(0,0,100))

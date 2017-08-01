@@ -41,9 +41,9 @@ object Colors {
       0
     } else {
       cmax match {
-        case R(c) => ((g - b) /  delta) % 6
-        case G(c) => ((b - r) / delta) + 2
-        case B(c) => ((r - g) / delta) + 4
+        case R(_) => ((g - b) /  delta) % 6
+        case G(_) => ((b - r) / delta) + 2
+        case B(_) => ((r - g) / delta) + 4
       }
     } * 60
 
